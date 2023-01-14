@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], textarea {
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  float:left;
+  margin-left:5%;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ccc;
+}
+.container2 {
+  float:right;
+  margin-right:5%;
+  border-radius: 5px;
+  background-color:bisque;
+  padding: 20px;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  padding: 3.5px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  padding: 3.5px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 0 5px;
+ 
+}
+
+.linkedin {
+  background-color: #0e76a8;
+  color: white;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  padding: 3.5px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 0 5px;
+
+}
+.btn:hover {
+  opacity: 1;
+}
+.icons{
+    padding: 10px 16px;
+    margin-left: 27%;
+}
+</style>
+</head>
+<body>
+
+<h1 style="margin-left:6%;">Send a Message <i class="fa fa-telegram" style="font-size:36px;color:blue;"></i></h1>
+
+<div class="container">
+  <form method="post">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" required><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email" placeholder="Enter Your Email" required><br>
+    <label for="mob">Mobile Number</label><br>
+    <input type="text" id="mob" name="mob" placeholder="Enter Your Mobile Number" required><br>
+    <label for="mess">Message</label><br>
+    <textarea id="mess" name="mess" placeholder="Write Your Message Here :)" style="height:200px"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="container2">
+    <h1>Contact Us</h1>
+    <i class="fa fa-map-marker" aria-hidden="true"  style="font-size:24px"></i> H.no 1951, W.N.4, Khaperkheda,Saoner,Nagpur<br><br><br>
+    <i class="fa fa-envelope" aria-hidden="true"style="font-size:24px"></i> info@suvidhafoundationedutech.org<br><br><br>
+    <i class="fa fa-phone" aria-hidden="true" style="font-size:24px"></i> +91 7020044091<br><br><br>
+    <h2 style="text-align:center">Follow us on</h2>
+    <div class="icons">
+    <a href="#" class="fb btn">
+        <i class="fa fa-facebook fa-fw"></i> 
+       </a>
+      <a href="#" class="instagram btn">
+        <i class="fa fa-instagram fa-fw"></i> 
+      </a>
+      <a href="#" class="linkedin btn"><i class="fa fa-linkedin fa-fw">
+        </i> 
+      </a>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
